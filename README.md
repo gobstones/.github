@@ -33,7 +33,7 @@ The guidelines ask for all repositories  to share a basic configuration structur
 In this way, when the team decide to change something on the common configuration, all repositories can be easily updated.
 
 The architecture of **GobstonesWeb2** is established by the dependencies between the modules provided by the different repositories belonging to the project, as presented in the following diagram:
-![GobstonesWeb2 Architecture Diagram]()
+![GobstonesWeb2 Architecture Diagram](https://github.com/gobstones/.github/blob/new-readme/Diagrama%20de%20Componentes%20del%20Proyecto%20Gobstones.svg)
 
 The complete list of repositories to be used on **GobstonesWeb2** (either planned or on development).
 * `gobstones-admin-dashboard`
