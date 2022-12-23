@@ -33,9 +33,14 @@ The guidelines ask for all repositories  to share a basic configuration structur
 In this way, when the team decide to change something on the common configuration, all repositories can be easily updated.
 
 The architecture of **GobstonesWeb2** is established by the dependencies between the modules provided by the different repositories belonging to the project, as presented in the following diagram:
+
 ![GobstonesWeb2 Architecture Diagram](https://github.com/gobstones/.github/blob/new-readme/Diagrama%20de%20Componentes%20del%20Proyecto%20Gobstones.svg)
 
-The complete list of repositories to be used on **GobstonesWeb2** (either planned or on development).
+<details>
+<summary>List of repositories of <b>GobstonesWeb2</b></summary>
+<p>
+
+The complete list of repositories to be used on **GobstonesWeb2** (either planned or under development).
 * `gobstones-admin-dashboard`
 * `gobstones-assertions`
 * `gobstones-blocks`
@@ -57,27 +62,35 @@ The complete list of repositories to be used on **GobstonesWeb2** (either planne
 * `gobstones-server`
 * `gobstones-test`
 * `gobstones-typechecker`
-
 * `gobstones-minimal-server` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
 * `gobstones-api-docs` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
 * `template-gobstones-typescript-library` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
+<details>
+<summary>To determine</summary>
+<p>
 
-Reconstruir la historia de estos
+These repositories have to be determined about their purpose.
 * `gobstones-board-react-refactor` - Refactoring of the gobstones-board-react proyect (lmattera)
 * `gobstones-classroom-server` - API for the administration of Gobstones courses and tracking of students' progress (JuanEscalada)
 * `gobstones-backoffice` - Gobstones Backoffice Client (JuanEscalada)
+</p>
+</details>
+</p>
+</details>
 
-More about the architecture will be explained here (_HELP NEEDED_).
 
-## Other repositories
+## **Other repositories**
 There are 3 repositories related with the organization:
 * `.github`, containing this README,
 * `gobstones.github.io`, containing the current webpage, and
 * `gobstones-website`, containing the new webpage.
 
-Other repositories that do not belong to the Organization or to GobstonesWeb2 correspond to components related with old versiones of the enviornment (current GobstonesWeb and PyGobstones) or aborted experiments.
+Other repositories that do not belong to the Organization or to GobstonesWeb2 correspond to components related with old versiones of the enviornment (current environment and PyGobstones) or aborted experiments.
 
-CHECK IF RELATED TO current environment
+<details>
+<summary>List of repositories of the current environment</summary>
+<p>
+
 * `gobstones-web`
 * `gobstones-web-staging`
 * `gs-element-blockly`
@@ -101,8 +114,10 @@ CHECK IF RELATED TO current environment
 * `gs-weblang-core`
 * `editor-beta` 
 * `gs-element-starter`
+</p>
+</details>
 
-## About Gobstones
+## **About Gobstones**
 **Gobstones** is a project started at Universidad Nacional de Quilmes in 2008 by Pablo E. --Fidel-- Martínez López and Eduardo Bonelli. 
 The motivation for the project was the seek for am innovative didactics proposal in order to teach programming with very precise goals, to people with no prior experience on programming.
 
