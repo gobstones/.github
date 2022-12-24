@@ -41,30 +41,31 @@ The architecture of **GobstonesWeb2** is established by the dependencies between
 <p>
 
 The complete list of repositories to be used on **GobstonesWeb2** (either planned or under development).
-* `gobstones-admin-dashboard`
-* `gobstones-assertions`
-* `gobstones-blocks`
-* `gobstones-blocks-react`
-* `gobstones-board`
-* `gobstones-board-react`
-* `gobstones-code-editor`
-* `gobstones-core`
-* `gobstones-ide`
-* `gobstones-gbb-parser`
-* `gobstones-guidelines`
-* `gobstones-lang`
-* `gobstones-lang-intl`
-* `gobstones-lint`
-* `gobstones-markdown-view`
-* `gobstones-parser`
-* `gobstones-refactors`
-* `gobstones-scripts`
-* `gobstones-server`
-* `gobstones-test`
-* `gobstones-typechecker`
-* `gobstones-minimal-server` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
-* `gobstones-api-docs` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
-* `template-gobstones-typescript-library` -- ¿Este está en GobstonesWeb2? No aparece en el diagrama
+* [`gobstones-admin-dashboard`](https://github.com/gobstones/gobstones/gobstones-admin-dashboard), a dashboard for the Gobstones server, 
+* [`gobstones-assertions`](https://github.com/gobstones/gobstones/gobstones-assertions), a static and semantic code analyzer for Gobstones langauge, 
+* [`gobstones-blocks`](https://github.com/gobstones/gobstones-blocks), a framework agnostic Gobstones Blockly component, 
+* [`gobstones-blocks-react`](https://github.com/gobstones/gobstones/gobstones-blocks-react), the REACT layer over gobstones-blocks,
+* [`gobstones-board`](https://github.com/gobstones/gobstones/gobstones-board), a representation for Gobstones boards,
+* [`gobstones-board-react`](https://github.com/gobstones/gobstones/gobstones-board-react), the REACT layer over the gobstones-board,
+* [`gobstones-code-editor`](https://github.com/gobstones/gobstones/gobstones-code-editor), a code editor to use with Gobstones,
+* [`gobstones-core`](https://github.com/gobstones/gobstones-core), a set of utility tools used through all GobstonesWeb2 repositories,
+* [`gobstones-ide`](https://github.com/gobstones/gobstones-ide), the IDE component, with the actual enviornment, 
+* [`gobstones-gbb-parser`](https://github.com/gobstones/gobstones-gbb-parser), a parser/printer for GBB (Gobstones Board) file format,
+* [`gobstones-guidelines`](https://github.com/gobstones/gobstones/gobstones-guidelines), fundamental documentation to contribute to GobstonesWeb2,
+* [`gobstones-lang`](https://github.com/gobstones/gobstones/gobstones-lang), a compiler for Gobstones language,
+* [`gobstones-lang-intl`](https://github.com/gobstones/gobstones-lang-intl), translation for Gobstones language built-ins and keywords, 
+* [`gobstones-lint`](https://github.com/gobstones/gobstones/gobstones-lint), a linter for Gobstones language,
+* [`gobstones-markdown-view`](https://github.com/gobstones/gobstones/gobstones-markdown-view), a markdown viewer for Gobstones,
+* [`gobstones-parser`](https://github.com/gobstones/gobstones-parser), a parser for Gobstones language v3.12,
+* [`gobstones-refactors`](https://github.com/gobstones/gobstones/gobstones-refactors), a refactoring tool for Gobstones language
+* [`gobstones-scripts`](https://github.com/gobstones/gobstones-scripts), common configuration for all GobstonesWeb2 repositories
+* [`gobstones-server`](https://github.com/gobstones/gobstones/gobstones-server), the Gobstones server,
+* [`gobstones-test`](https://github.com/gobstones/gobstones/gobstones-test), a unit testing framework for Gobstones language,
+* [`gobstones-typechecker`](https://github.com/gobstones/gobstones/gobstones-typechecker), a typechecker for Gobstones language.
+
+Not in the diagram:
+* [`gobstones-api-docs`](https://github.com/gobstones/gobstones/gobstones-api-docs), an API Docs web page for GobstonesWeb (does not appear in the diagram),
+* [`template-gobstones-typescript-library`](https://github.com/gobstones/gobstones/template-gobstones-typescript-library), a template project to create new typescript languages for the Gobstones platform (does not appear in the diagram).
 <details>
 <summary>To determine</summary>
 <p>
@@ -81,39 +82,41 @@ These repositories have to be determined about their purpose.
 
 ## **Other repositories**
 There are 3 repositories related with the organization:
-* `.github`, containing this README,
-* `gobstones.github.io`, containing the current webpage, and
-* `gobstones-website`, containing the new webpage.
+* [`.github`](https://github.com/gobstones/.github), the home for the Gobstones organization, containing this README,
+* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for Gobstones in Github, and
+* [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for Gobstones community.
 
-Other repositories that do not belong to the Organization or to GobstonesWeb2 correspond to components related with old versiones of the enviornment (current environment and PyGobstones) or aborted experiments.
+Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versiones of the enviornment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
 <summary>List of repositories of the current environment</summary>
 <p>
 
-* `gobstones-web`
-* `gobstones-web-staging`
-* `gs-element-blockly`
-* `gobstones-activity-server` - faloi
-* `gs-board`
-* `gobstones-web-desktop`
-* `gobstones-cli`
-* `gobstones-code-runner`
-* `course-creator`
-* `keymaster` - A simple micro-library for defining and dispatching keyboard shortcuts. It has no dependencies.
-* `ace-builds`
-* `gobstones-teacher-staging`
-* `gobstones-teacher`
-* `gobstones-jr-staging`
-* `gobstones-jr`
-* `gobstones-sr-staging`
-* `gobstones-sr`
-* `gobstones-issues`
-* `gobstones-web-01-01-2018`
-* `gs-board-render-test`
-* `gs-weblang-core`
-* `editor-beta` 
-* `gs-element-starter`
+* [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
+* [`course-creator`](http://github.com/gobstones/course-creator), a tool to create courses for GobstonesWeb, 
+* [`editor-beta` ](http://github.com/gobstones/editor-beta), an editor to process Gobstones dinamically, 
+* [`gobstones-activity-server`](http://github.com/gobstones/gobstones-activity-server), a buffer for activities from Github to GobstonesWeb,
+* [`gobstones-cli`](http://github.com/gobstones/gobstones-cli), the CLI for gobstones-intepreter, 
+* [`gobstones-code-runner`](http://github.com/gobstones/gobstones-code-runner), a tool to run Gobstones programs, 
+* [`gobstones-issues`](http://github.com/gobstones/gobstones-issues), a storage to register users issues from GobstonesWeb, 
+* [`gobstones-interpreter`](http://github.com/gobstones/gobstones-interpreter), the compiler for Gobstones language (wrongly named), 
+* [`gobstones-jr`](http://github.com/gobstones/gobstones-jr), the GobstonesJr IDE, 
+* [`gobstones-jr-staging`](http://github.com/gobstones/gobstones-jr-staging), alpha testing for new releases of GobstonesJr, 
+* [`gobstones-minimal-server`](https://github.com/gobstones/gobstones/gobstones-minimal-server), a buffer between activities in Github and GobstonesWeb,
+* [`gobstones-sr`](https://github.com/gobstones/gobstones-sr), the GobstonesSr IDE, 
+* [`gobstones-sr-staging`](https://github.com/gobstones/gobstones-sr-staging), alpha testing for new releases of GobstonesSr, 
+* [`gobstones-teacher`](https://github.com/gobstones/gobstones-teacher), the GobstonesTeacher IDE, 
+* [`gobstones-teacher-staging`](https://github.com/gobstones/gobstones-teacher-staging), alpha testing for new releases of GobstonesTeacher, 
+* [`gobstones-web`](https://github.com/gobstones/gobstones-web), the Gobstones Web IDE, 
+* [`gobstones-web-desktop`](https://github.com/gobstones/gobstones-web-desktop), desktop version of GobstonesWeb, 
+* [`gobstones-web-staging`](https://github.com/gobstones/gobstones-web-staging), alpha testing for new releases of GobstonesWeb, 
+* [`gobstones-web-01-01-2018`](https://github.com/gobstones/gobstones-web-01-01-2018), snapshot of GobstonesWeb at 01-01-2018, 
+* [`gs-board`](https://github.com/gobstones/gs-board), the Gobstones board for GobstonesWeb, 
+* [`gs-board-render-test`](https://github.com/gobstones/gs-board-render-test), testing for Gobstones board render, 
+* [`gs-element-blockly`](https://github.com/gobstones/gs-element-blockly), the Blockly element for GobstonesWeb, 
+* [`gs-element-starter`](https://github.com/gobstones/gs-element-starter), starter template for a Gobstones Web polymer element, 
+* [`gs-weblang-core`](https://github.com/gobstones/gs-weblang-core), (DEPRECATED) use gobstones-interpreter, 
+* [`keymaster`](https://github.com/gobstones/keymaster), a simple micro-library for defining and dispatching keyboard shortcuts with no dependencies.
 </p>
 </details>
 
