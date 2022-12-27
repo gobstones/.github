@@ -20,7 +20,7 @@ The development team decided to start a new version of the environment, **Gobsto
 While the repositories for the current environment are still present, they will not be further mantained. 
 Eventually they will be properly separated.
 
-## **Architecture and workflow for GobstonesWeb2**
+## **Architecture of GobstonesWeb2**
 Understanding **GobstonesWeb2** requires to know a non-trivial amount of information.
 There are a lot of components to understand, a lot of technologies used that you should be aware of, and, if you want to contribute, also a series of guidelines to understand the workflow and the rules your source code must comply.
 
