@@ -20,13 +20,13 @@ The development team decided to start a new version of the environment, **Gobsto
 While the repositories for the current environment are still present, they will not be further mantained. 
 Eventually they will be properly separated.
 
-## **Architecture of GobstonesWeb2**
+## **GobstonesWeb2 repositories**
 Understanding **GobstonesWeb2** requires to know a non-trivial amount of information.
 There are a lot of components to understand, a lot of technologies used that you should be aware of, and, if you want to contribute, also a series of guidelines to understand the workflow and the rules your source code must comply.
 
 To know more about the guidelines to contribute, consult [Gobstones-Guidelines](https://github.com/gobstones/gobstones-guidelines).
 
-### **GobstonesWeb2 repositories**
+### **Architecture of GobstonesWeb2**
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
 For each module, there will be a repository in the organization.
 
