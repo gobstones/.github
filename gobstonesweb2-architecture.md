@@ -6,7 +6,7 @@ In this way, when the team decide to change something on the common configuratio
 
 The architecture of **GobstonesWeb2** is established by the dependencies between the modules provided by the different repositories belonging to the project, as presented in the following diagram:
 
-![GobstonesWeb2 Architecture Diagram](https://github.com/gobstones/.github/blob/new-readme/Diagrama%20de%20Componentes%20del%20Proyecto%20Gobstones.svg)
+![GobstonesWeb2 Architecture Diagram](https://github.com/gobstones/.github/blob/new-readme/diagram-of-components.svg)
 
 <details>
 <summary>List of repositories of <b>GobstonesWeb2</b></summary>
