@@ -6,12 +6,12 @@ If you want to contribute, there are _**a lot**_ of ways to do it, not only prog
 If you want to know more about **Gobstones**, how to contribute to it, or the related material, refer to the [home page](http://gobstones.org).
 Also, at the end of these document we add a [brief explanation of what constitutes **Gobstones**](#about-gobstones) for the casual reader and completion.
 
-Ths _Github_ organization was created to home the repositories implementing to the programming environment of the project, **GobstonesWeb**.
+The _Github_ Organization was created to home the repositories implementing to the programming environment of the project, **GobstonesWeb**.
 There are repositories with different purposes: some deal with organization issues, and others are related to different versions of the environment.
 More about repositories in the sections [GobstonesWeb2 repositories](#gobstonesweb2-repositories) and [Other repositories](#other-repositories).
 
 ### How to get help
-If you want to join the organization or get help on something related to it, please join the [**Gobstones Community**](https://bit.ly/ComunidadGobstones) at _Discord_, and follow the rules of the organization to receive a proper role.
+If you want to join the organization or get help on something related to it, please join the [**Gobstones** Community](https://bit.ly/ComunidadGobstones) at _Discord_, and follow the rules of the server to receive a proper role.
 
 ### Programming environments
 The environment currently deployed (in its 3 modes: [**GobstonesJr**](https://gobstones.github.io/gobstones-jr/), [**GobstonesSr**](https://gobstones.github.io/gobstones-sr/) and [**GobstonesTeacher**](https://gobstones.github.io/gobstones-teacher/)) was started on 2015 and developed mostly by a single developer (with some contributions from other programmers), without too much planning in advance regarding architecture, modifiability, or long term growing. The technologies for development weren't chosen with a plan in mind, and soon became obsolete (for example, it uses _Polymer_ for component integration, a preliminary version of _Blockly_ that was not published as a release, and other currently deprecated). For that reason, making any change or improvement is a complex and very error prone task.
