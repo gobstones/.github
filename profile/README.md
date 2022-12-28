@@ -16,8 +16,8 @@ If you want to join the organization or get help on something related to it, ple
 ### Programming environments
 The environment currently deployed (in its 3 modes: [**GobstonesJr**](https://gobstones.github.io/gobstones-jr/), [**GobstonesSr**](https://gobstones.github.io/gobstones-sr/) and [**GobstonesTeacher**](https://gobstones.github.io/gobstones-teacher/)) was started on 2015 and developed mostly by a single developer (with some contributions from other programmers), without too much planning in advance regarding architecture, modifiability, or long term growing. The technologies for development weren't chosen with a plan in mind, and soon became obsolete (for example, it uses _Polymer_ for component integration, a preliminary version of _Blockly_ that was not published as a release, and other currently deprecated). For that reason, making any change or improvement is a complex and very error prone task.
 
-The development team decided to start a new version of the environment, **GobstonesWeb2**, providing first a similar functionality to the current one, but with a more solid architecture, modern technologies, and a workflow warranteeing modifiability and future growth.
-While the repositories for the current environment are still present, they will not be further mantained. 
+The development team decided to start a new version of the environment, **GobstonesWeb2**, providing first a similar functionality to the current one, but with a more solid architecture, modern technologies, and a workflow guaranteeing modifiability and future growth.
+While the repositories for the current environment are still present, they will not be further maintained. 
 Eventually they will be properly separated.
 
 ## **GobstonesWeb2 repositories**
@@ -30,7 +30,7 @@ To know more about the guidelines to contribute, consult [Gobstones-Guidelines](
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
 For each module, there will be a repository in the organization.
 
-We describe the list of repositories and their relationship [here](https://github.com/gobstones/.github/blob/new-readme/gobstonesweb2-architecture.md).
+We describe the list of repositories and their relationship [here](./profile/gobstonesweb2-architecture.md).
 
 
 ## **Other repositories**
@@ -39,7 +39,7 @@ There are 3 repositories related with the organization:
 * [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for Gobstones in Github, and
 * [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for Gobstones community.
 
-Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versiones of the enviornment (current environment and **PyGobstones**) or aborted experiments.
+Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
 <summary>List of repositories of the current environment</summary>
@@ -47,9 +47,9 @@ Other repositories that do not belong to `Organization` or to `GobstonesWeb2` co
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
 * [`course-creator`](http://github.com/gobstones/course-creator), a tool to create courses for GobstonesWeb, 
-* [`editor-beta` ](http://github.com/gobstones/editor-beta), an editor to process Gobstones dinamically, 
+* [`editor-beta` ](http://github.com/gobstones/editor-beta), an editor to process Gobstones dynamically, 
 * [`gobstones-activity-server`](http://github.com/gobstones/gobstones-activity-server), a buffer for activities from Github to GobstonesWeb,
-* [`gobstones-cli`](http://github.com/gobstones/gobstones-cli), the CLI for gobstones-intepreter, 
+* [`gobstones-cli`](http://github.com/gobstones/gobstones-cli), the CLI for gobstones-interpreter, 
 * [`gobstones-code-runner`](http://github.com/gobstones/gobstones-code-runner), a tool to run Gobstones programs, 
 * [`gobstones-issues`](http://github.com/gobstones/gobstones-issues), a storage to register users issues from GobstonesWeb, 
 * [`gobstones-interpreter`](http://github.com/gobstones/gobstones-interpreter), the compiler for Gobstones language (wrongly named), 
@@ -74,7 +74,7 @@ Other repositories that do not belong to `Organization` or to `GobstonesWeb2` co
 </details>
 
 ## **About Gobstones**
-**Gobstones** is a project started at Universidad Nacional de Quilmes in 2008 by Pablo E. --Fidel-- Martínez López and Eduardo Bonelli. 
+**Gobstones** is a project started at National University of Quilmes in 2008 by Pablo E. --Fidel-- Martínez López and Eduardo Bonelli. 
 The motivation for the project was the seek for am innovative didactics proposal in order to teach programming with very precise goals, to people with no prior experience on programming.
 
 In order to meet that goal, they designed a programming language that capture the main ideas of the proposed didactics, and started to use it in their lectures.
@@ -85,7 +85,7 @@ So, **Gobstones** involves three elements:
 * a _programming environment_, integrating both the didactics and the language.
 
 Those 3 elements grew up along time, usually with rich interrelationships between them
-The name **Gobstones** was initially used for the programming language, but as the language was concieved with a particular didactics in mind, the same name was used also for that didactics proposal.
+The name **Gobstones** was initially used for the programming language, but as the language was conceived with a particular didactics in mind, the same name was used also for that didactics proposal.
 The programming environment always was named with a different name (usually containing also the name **Gobstones** in it), depending on the different implementations and the technologies used for that.
 The current version used web technologies, and for that reason it is called **GobstonesWeb**. 
 However, most people use the name **Gobstones** _also_ to refer to the environment.
