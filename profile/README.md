@@ -8,6 +8,7 @@ Also, at the end of these document we add a [brief explanation of what constitut
 
 The _Github_ Organization was created to home the repositories implementing to the programming environment of the project, **GobstonesWeb**.
 There are repositories with different purposes: some deal with organization issues, and others are related to different versions of the environment.
+All repositories in the Organization start with a tag, so they can be easily sorted out using that tag.
 More about repositories in the sections [GobstonesWeb2 repositories](#gobstonesweb2-repositories) and [Other repositories](#other-repositories).
 
 ### How to get help
@@ -35,14 +36,14 @@ We describe the list of repositories of **GobstonesWeb2** and their relationship
 
 ## **Other repositories**
 There are 3 repositories related with the organization:
-* [`.github`](https://github.com/gobstones/.github), the home for the Gobstones organization, containing this README,
-* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for Gobstones in Github, and
-* [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for Gobstones community.
+* [`.github`](https://github.com/gobstones/.github), the home for the **Gobstones** organization, containing this README,
+* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for **Gobstones** in _Github_, and
+* [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for **Gobstones** community.
 
 Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
-<summary>List of repositories of the current environment, **GobstonesWeb**</summary>
+  <summary>List of repositories of the current environment, <b>GobstonesWeb</b></summary>
 <p>
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
