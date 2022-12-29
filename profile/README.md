@@ -30,7 +30,7 @@ To know more about the guidelines to contribute, consult [Gobstones-Guidelines](
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
 For each module, there will be a repository in the organization.
 
-We describe the list of repositories and their relationship [here](./gobstonesweb2-architecture.md).
+We describe the list of repositories of **GobstonesWeb2** and their relationship [here](./gobstonesweb2-architecture.md).
 
 
 ## **Other repositories**
@@ -42,7 +42,7 @@ There are 3 repositories related with the organization:
 Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
-<summary>List of repositories of the current environment</summary>
+<summary>List of repositories of the current environment, **GobstonesWeb**</summary>
 <p>
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
