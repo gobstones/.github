@@ -30,7 +30,7 @@ To know more about the guidelines to contribute, consult [Gobstones-Guidelines](
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
 For each module, there will be a repository in the organization.
 
-We describe the list of repositories and their relationship [here](./gobstonesweb2-architecture.md).
+We describe the list of repositories and their relationship [here](https://github.com/gobstones/gobstones-guidelines/blob/main/sections/gobstonesweb2-architecture.md).
 
 
 ## **Other repositories**
