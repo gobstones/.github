@@ -8,6 +8,7 @@ Also, at the end of these document we add a [brief explanation of what constitut
 
 The _Github_ Organization was created to home the repositories implementing to the programming environment of the project, **GobstonesWeb**.
 There are repositories with different purposes: some deal with organization issues, and others are related to different versions of the environment.
+All repositories in the Organization start with a tag, so they can be easily sorted out using that tag.
 More about repositories in the sections [GobstonesWeb2 repositories](#gobstonesweb2-repositories) and [Other repositories](#other-repositories).
 
 ### How to get help
@@ -28,21 +29,21 @@ To know more about the guidelines to contribute, consult [Gobstones-Guidelines](
 
 ### **Architecture of GobstonesWeb2**
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
-For each module, there will be a repository in the organization.
+For each module, there will be a repository in the organization tagged as `[GobstonesWeb2]`.
 
-We describe the list of repositories and their relationship [here](https://github.com/gobstones/gobstones-guidelines/blob/main/sections/gobstonesweb2-architecture.md).
+We describe the list of repositories of **GobstonesWeb2** and their relationship [here](https://github.com/gobstones/gobstones-guidelines/blob/main/sections/gobstonesweb2-architecture.md).
 
 
 ## **Other repositories**
-There are 3 repositories related with the organization:
-* [`.github`](https://github.com/gobstones/.github), the home for the Gobstones organization, containing this README,
-* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for Gobstones in Github, and
-* [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for Gobstones community.
+There are 3 repositories related with the organization, tagged as `[Organization]`:
+* [`.github`](https://github.com/gobstones/.github), the home for the **Gobstones** organization, containing this README,
+* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for **Gobstones** in Github, and
+* [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for **Gobstones** community.
 
 Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
-<summary>List of repositories of the current environment</summary>
+<summary>List of repositories of the current environment, <b>GobstonesWeb</b>, tagged as <code>[GobstonesWeb]</code></summary>
 <p>
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
