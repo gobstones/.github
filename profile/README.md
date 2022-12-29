@@ -29,21 +29,21 @@ To know more about the guidelines to contribute, consult [Gobstones-Guidelines](
 
 ### **Architecture of GobstonesWeb2**
 The architecture of **GobstonesWeb2** combines several modules providing different functionalities.
-For each module, there will be a repository in the organization.
+For each module, there will be a repository in the organization tagged as `[GobstonesWeb2]`.
 
 We describe the list of repositories of **GobstonesWeb2** and their relationship [here](./gobstonesweb2-architecture.md).
 
 
 ## **Other repositories**
-There are 3 repositories related with the organization:
+There are 3 repositories related with the organization, tagged as `[Organization]`:
 * [`.github`](https://github.com/gobstones/.github), the home for the **Gobstones** organization, containing this README,
 * [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for **Gobstones** in _Github_, and
 * [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for **Gobstones** community.
 
-Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
+Other repositories that do not belong to `[Organization]` or to `[GobstonesWeb2]` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
 <details>
-  <summary>List of repositories of the current environment, <b>GobstonesWeb</b></summary>
+  <summary>List of repositories of the current environment, <b>GobstonesWeb</b>, tagged as <code>[GobstonesWeb]</code></summary>
 <p>
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
