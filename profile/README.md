@@ -37,14 +37,14 @@ We describe the list of repositories of **GobstonesWeb2** and their relationship
 ## **Other repositories**
 There are 3 repositories related with the organization, tagged as `[Organization]`:
 * [`.github`](https://github.com/gobstones/.github), the home for the **Gobstones** organization, containing this README,
-* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for **Gobstones** in Github, and
+* [`gobstones.github.io`](https://github.com/gobstones/gobstones.github.io), the current website for **Gobstones** in _Github_, and
 * [`gobstones-website`](https://github.com/gobstones/gobstones-website), the website for **Gobstones** community.
 
-Other repositories that do not belong to `Organization` or to `GobstonesWeb2` correspond to components related with old versions of the environment (current environment and **PyGobstones**) or aborted experiments.
+Other repositories that do not belong to `[Organization]` or to `[GobstonesWeb2]` correspond to components related with older versions of the environment (current environment and **PyGobstones**) or aborted experiments.
 
-<details>
-<summary>List of repositories of the current environment, <b>GobstonesWeb</b>, tagged as <code>[GobstonesWeb]</code></summary>
-<p>
+<details><summary>
+List of repositories of the current environment, <b>GobstonesWeb</b>, tagged as <code>[GobstonesWeb]</code>
+</summary><p>
 
 * [`ace-builds`](http://github.com/gobstones/ace-builds), packaged version of Ace code editor, 
 * [`course-creator`](http://github.com/gobstones/course-creator), a tool to create courses for GobstonesWeb, 
@@ -71,8 +71,7 @@ Other repositories that do not belong to `Organization` or to `GobstonesWeb2` co
 * [`gs-element-starter`](https://github.com/gobstones/gs-element-starter), starter template for a Gobstones Web polymer element, 
 * [`gs-weblang-core`](https://github.com/gobstones/gs-weblang-core), (DEPRECATED) use gobstones-interpreter, 
 * [`keymaster`](https://github.com/gobstones/keymaster), a simple micro-library for defining and dispatching keyboard shortcuts with no dependencies.
-</p>
-</details>
+</p></details>
 
 ## **About Gobstones**
 **Gobstones** is a project started at National University of Quilmes in 2008 by Pablo E. --Fidel-- Martínez López and Eduardo Bonelli. 
